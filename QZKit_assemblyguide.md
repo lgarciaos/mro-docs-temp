@@ -7,8 +7,6 @@ post_excerpt: How-to style guide to assemble your QZKit
 
 ---
 
-# Quad Zero Kit assembly guide
-
 The Quad Zero Kit platform was developed with several goals in mind: lightweight (<250g), 3D-printable frame, agile flying envelope and simple to setup. It is powered by our most popular flight controller yet, the Control Zero H7 OEM on top of a custom made carrier board that includes power monitoring, integrated ESC module, ToF sensor, and several ports to support any OSD, GPS, CAN and/or telemetry peripherals.
 
 IWe put together this guide to help you get up and running with your QZKit platform as fast as possible. Please note that this build may take anywhere from 3 hrs to several sessions depending on your particular experience.
@@ -105,7 +103,7 @@ Take one MI-2202 brushless motor from its box, make sure the rotor can spin free
 
 **NOTE**: Make sure the motor's wires point down the frame's arm. See figure below.
 
-![loading-ag-1892](/_images/e7511d63f56cf1b0d6b4486c056bbaab80be69e7.png)
+![alt text](/_images/e7511d63f56cf1b0d6b4486c056bbaab80be69e7.png)
 
 Please do not use Loctite or other similar fluids as these may damage the plastic integrity over time. Repeat the above steps for the remaining 3 arms. Due to the nature of the manufacturing process, your frame may or may not have 'elephant foot' artifacts; if this is the case please remove them using a hobby knife.
 
