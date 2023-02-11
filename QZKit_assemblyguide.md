@@ -109,7 +109,7 @@ Take one MI-2202 brushless motor from its box, make sure the rotor can spin free
 
 **NOTE**: Make sure the motor's wires point down the frame's arm. See figure below.
 
-![alt text](/_images/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png)
+![alt text](/_images/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png){ width=50% }
 
 
 
