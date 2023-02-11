@@ -1,16 +1,17 @@
-- Change 'What's included' picture
+---
 
-- Update what's included list
+title: mRo Quad Zero Kit assembly guide
+menu_order: 1
+post_status: publish
+post_excerpt: How-to style guide to assemble your QZKit
 
-- Update general quad picture
+---
 
 # Quad Zero Kit assembly guide
 
 The Quad Zero Kit platform was developed with several goals in mind: lightweight (<250g), 3D-printable frame, agile flying envelope and simple to setup. It is powered by our most popular flight controller yet, the Control Zero H7 OEM on top of a custom made carrier board that includes power monitoring, integrated ESC module, ToF sensor, and several ports to support any OSD, GPS, CAN and/or telemetry peripherals.
 
 IWe put together this guide to help you get up and running with your QZKit platform as fast as possible. Please note that this build may take anywhere from 3 hrs to several sessions depending on your particular experience.
-
-
 
 ## What's Included
 
@@ -63,8 +64,6 @@ Make sure you have all the parts listed below, if something is missing or you ha
   - [ ] 1x MRC-0291 JST-SH 4 short cable
   
   - [ ] 1x MRC-0292 JST-SH 6  short cable
-    
-    
 
 ## Required tools
 
@@ -87,16 +86,12 @@ Make sure you have all the parts listed below, if something is missing or you ha
 - [ ] Prop balancer - optional
 
 - [ ] Scissors - optional
-  
-  
 
 ## Extra resources
 
 - [ ] FrSky D16 protocol compatible transmitter
 
 - [ ] Ground station hardware - your laptop or a tablet running Mission Planner or QGC
-  
-  
 
 # Step 1 - Attach motors to the frame
 
@@ -110,7 +105,7 @@ Take one MI-2202 brushless motor from its box, make sure the rotor can spin free
 
 **NOTE**: Make sure the motor's wires point down the frame's arm. See figure below.
 
-![IMG_3099.png](assets/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png)
+![loading-ag-1892](/_images/e7511d63f56cf1b0d6b4486c056bbaab80be69e7.png)
 
 Please do not use Loctite or other similar fluids as these may damage the plastic integrity over time. Repeat the above steps for the remaining 3 arms. Due to the nature of the manufacturing process, your frame may or may not have 'elephant foot' artifacts; if this is the case please remove them using a hobby knife.
 
@@ -118,17 +113,13 @@ Please do not use Loctite or other similar fluids as these may damage the plasti
 
 Once you finish placing and screwing all the motors your frame should look something like the picture below.
 
-![IMG_3118.JPEG](assets/d7621fcaefc7f8d87c3b3e2e9b59be02574f0552.JPEG)
-
-
+![loading-ag-1900](/_images/e15a64ada08a6d37cf0c743bfe46f666e4c3b970.JPEG)
 
 # Step 2 - Carrier board subassembly
 
 ### Radio RX wire prep
 
 **NOTE:** We cannot guarantee the firmware version that FrSky or our distributor ship the receivers with, we understand this situation is not optimal for ease of use and are currently working to solve it. 
-
-
 
 *We chose the R-XSR receiver for its flexibility and low weight. Depending on your particular needs you may choose to place it in a different location or not use one at all.  In this guide we will cover the standard RC receiver placed on the side of the frame.*
 
@@ -138,9 +129,7 @@ Locate the harness with pre-tinned pigtails and remove the white and yellow wire
 
 Make sure your connector assembly looks like the picture below. This shows a standard SBUS out connection to the FC, however if you are an advanced user and would like to use the S.Port for telemetry you may adapt these instructions as needed.
 
-
-
-![IMG_3114.png](assets/66a774f897079c0206ccc2d1a140aeb5079b548b.png)
+![loading-ag-1888](/_images/66a774f897079c0206ccc2d1a140aeb5079b548b.png)
 
 Then, for an appropriate cable management cut the wire length to 26mm or about an inch from the connector housing. Again, if you require to place your radio elsewhere feel free to do so.
 Now, cut a piece of double sided tape and put in on the antenna connector side of the board, if the tape is too thin you may stack up 2 or more layers, as needed to get a good flat surface area so it sticks better to the frame. Do not place it yet.
@@ -153,7 +142,7 @@ Next, solder the pigtails to the carrier board as described below.
 | Red   | RC<sub>V_SEL</sub> |
 | Green | RC<sub>IN</sub>    |
 
-![IMG_3122.png](assets/b32cf9603c746abc59d07c9a1af2a99b6ee4a2c3.png)
+![loading-ag-1894](/_images/b32cf9603c746abc59d07c9a1af2a99b6ee4a2c3.png)
 
 **NOTE:** If you are using a Spektrum satellite receiver please visit the M10112 carrier board wiki for directions on how to change the voltage and pairing logic.
 
@@ -228,13 +217,11 @@ We will start this section by opening the bag that contains the Dual Band teleme
 
 Allocate the GPS Riser and grab the two 2-56x1/8" nylon hex screws to attach the M10114 Dual Band telemetry radio board to the plastic riser as pictured below.
 
-![IMG_3181.JPEG](assets/d00dc94d4ea9c7543519dcb5ab3f6e531543bb8d.JPEG)
-
-
+![loading-ag-1896](/_images/d00dc94d4ea9c7543519dcb5ab3f6e531543bb8d.JPEG)
 
 Place a small 9x9mm double sided tape square and place the GPS on top.
 
-![IMG_3182.JPEG](assets/9748fedbc4f838fa97db7f2f379fbe43c1157c43.JPEG)
+![loading-ag-1898](/_images/9748fedbc4f838fa97db7f2f379fbe43c1157c43.JPEG)
 
 ## Put flight controller in place
 
@@ -283,15 +270,9 @@ Should reconnect auto, if not just press disconnect and Connect .
 
 add Channels to pinout diagram like in M1018 silkscreen.
 
-
-
 ## PX4
 
 ### Parameters file
-
-
-
-
 
 # Final assembly steps
 
@@ -306,31 +287,3 @@ Use 2 included M2x5mm screws per motor to secure the propeller in place. Loctite
 ### Dynamic balancing
 
 Attempt to describe dynamic balancing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
