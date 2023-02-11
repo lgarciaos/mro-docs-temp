@@ -109,6 +109,8 @@ Take one MI-2202 brushless motor from its box, make sure the rotor can spin free
 
 ![alt text](/_images/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png)
 
+<img src="./_images/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png" width="300"/>
+
 Please do not use Loctite or other similar fluids as these may damage the plastic integrity over time. Repeat the above steps for the remaining 3 arms. Due to the nature of the manufacturing process, your frame may or may not have 'elephant foot' artifacts; if this is the case please remove them using a hobby knife.
 
 ![Alt text](https://media.giphy.com/media/9dOM5G6LlBkInPRqyS/giphy.gif)
