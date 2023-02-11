@@ -107,7 +107,7 @@ Take one MI-2202 brushless motor from its box, make sure the rotor can spin free
 
 **NOTE**: Make sure the motor's wires point down the frame's arm. See figure below.
 
-![alt text](/_images/e7511d63f56cf1b0d6b4486c056bbaab80be69e7.png)
+![alt text](/_images/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png)
 
 Please do not use Loctite or other similar fluids as these may damage the plastic integrity over time. Repeat the above steps for the remaining 3 arms. Due to the nature of the manufacturing process, your frame may or may not have 'elephant foot' artifacts; if this is the case please remove them using a hobby knife.
 
@@ -115,7 +115,7 @@ Please do not use Loctite or other similar fluids as these may damage the plasti
 
 Once you finish placing and screwing all the motors your frame should look something like the picture below.
 
-![loading-ag-1900](/_images/e15a64ada08a6d37cf0c743bfe46f666e4c3b970.JPEG)
+![alt text](/_images/d7621fcaefc7f8d87c3b3e2e9b59be02574f0552.JPEG)
 
 # Step 2 - Carrier board subassembly
 
@@ -131,7 +131,7 @@ Locate the harness with pre-tinned pigtails and remove the white and yellow wire
 
 Make sure your connector assembly looks like the picture below. This shows a standard SBUS out connection to the FC, however if you are an advanced user and would like to use the S.Port for telemetry you may adapt these instructions as needed.
 
-![loading-ag-1888](/_images/66a774f897079c0206ccc2d1a140aeb5079b548b.png)
+![alt text](/_images/66a774f897079c0206ccc2d1a140aeb5079b548b.png =200x)
 
 Then, for an appropriate cable management cut the wire length to 26mm or about an inch from the connector housing. Again, if you require to place your radio elsewhere feel free to do so.
 Now, cut a piece of double sided tape and put in on the antenna connector side of the board, if the tape is too thin you may stack up 2 or more layers, as needed to get a good flat surface area so it sticks better to the frame. Do not place it yet.
@@ -193,7 +193,7 @@ To remove the tabs you may use any tweezers or bare fingers. Apply a torque or t
 
 Solder the BT2.0 pigtail onto the battery terminals of the M10112 carrier board. The red wire should match the **'+'** sign in the board. 
 
-![Alte text](https://media.giphy.com/media/gkw2YC5n8UzOXuDd7x/giphy.gif)
+![Alt text](https://media.giphy.com/media/gkw2YC5n8UzOXuDd7x/giphy.gif)
 
 ## Motors
 
@@ -219,7 +219,7 @@ We will start this section by opening the bag that contains the Dual Band teleme
 
 Allocate the GPS Riser and grab the two 2-56x1/8" nylon hex screws to attach the M10114 Dual Band telemetry radio board to the plastic riser as pictured below.
 
-![loading-ag-1896](/_images/d00dc94d4ea9c7543519dcb5ab3f6e531543bb8d.JPEG)
+![loading-ag-1896](/_images/d00dc94d4ea9c7543519dcb5ab3f6e531543bb8d.JPEG =400x)
 
 Place a small 9x9mm double sided tape square and place the GPS on top.
 
