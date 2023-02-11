@@ -13,7 +13,9 @@ taxonomy:
 
 The Quad Zero Kit platform was developed with several goals in mind: lightweight (<250g), 3D-printable frame, agile flying envelope and simple to setup. It is powered by our most popular flight controller yet, the Control Zero H7 OEM on top of a custom made carrier board that includes power monitoring, integrated ESC module, ToF sensor, and several ports to support any OSD, GPS, CAN and/or telemetry peripherals.
 
-IWe put together this guide to help you get up and running with your QZKit platform as fast as possible. Please note that this build may take anywhere from 3 hrs to several sessions depending on your particular experience.
+We put together this guide to help you get up and running with your QZKit platform as fast as possible. Please note that this build may take anywhere from 3 hrs to several sessions depending on your particular experience.
+
+<img src="/_images/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png" width="300"/>
 
 ## What's Included
 
@@ -109,7 +111,7 @@ Take one MI-2202 brushless motor from its box, make sure the rotor can spin free
 
 ![alt text](/_images/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png)
 
-<img src="_images/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png" width="300"/>
+
 
 Please do not use Loctite or other similar fluids as these may damage the plastic integrity over time. Repeat the above steps for the remaining 3 arms. Due to the nature of the manufacturing process, your frame may or may not have 'elephant foot' artifacts; if this is the case please remove them using a hobby knife.
 
