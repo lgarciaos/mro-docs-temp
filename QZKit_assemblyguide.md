@@ -4,6 +4,10 @@ title: mRo Quad Zero Kit assembly guide
 menu_order: 1
 post_status: publish
 post_excerpt: How-to style guide to assemble your QZKit
+taxonomy:
+  category:
+    - platform
+
 
 ---
 
