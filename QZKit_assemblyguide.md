@@ -228,9 +228,14 @@ We will start this section by opening the bag that contains the Dual Band teleme
 
 Allocate the GPS Riser and grab the two 2-56x1/8" nylon hex screws to attach the M10114 Dual Band telemetry radio board to the plastic riser as pictured below.
 
+![image](/_images/d00dc94d4ea9c7543519dcb5ab3f6e531543bb8d.JPEG)
+
 <img src="https://mrobotics.io/wp-content/uploads/2023/02/d00dc94d4ea9c7543519dcb5ab3f6e531543bb8d.JPEG" width="600"/>
 
-Place a small 9x9mm double sided tape square and place the GPS on top.
+
+Place a small 9x9mm double sided tape square and place the GPS on top..
+
+![image2](/_images/9748fedbc4f838fa97db7f2f379fbe43c1157c43.JPEG)
 
 <img src="https://mrobotics.io/wp-content/uploads/2023/02/9748fedbc4f838fa97db7f2f379fbe43c1157c43.JPEG" width="600"/>
 
