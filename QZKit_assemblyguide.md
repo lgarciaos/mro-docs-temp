@@ -11,49 +11,51 @@ taxonomy:
 
 ---
 
-The Quad Zero Kit platform was developed with several goals in mind: lightweight (<250g), 3D-printable frame, agile flying envelope and simple to setup. It is powered by our most popular flight controller yet, the Control Zero H7 OEM on top of a custom made carrier board that includes power monitoring, integrated ESC module, ToF sensor, and several ports to support any OSD, GPS, CAN and/or telemetry peripherals.
+The Quad Zero Kit is a lightweight (<250g) platform with a 3D-printable frame, agile flying envelope and simple to setup. It is powered by our most popular flight controller yet, the Control Zero H7 OEM on top of custom made motors and a carrier board that includes power monitoring, integrated ESC module, Time-of-Flight sensor for precision landing (Z-axis), and additional ports to support any OSD, GPS, CAN, telemetry and any other payload peripherals.
+
+<img src="https://mrobotics.io/wp-content/uploads/2022/05/DRON3-1959x2048.jpg" width="600"/>
 
 We put together this guide to help you get up and running with your QZKit platform as fast as possible. Please note that this build may take anywhere from 3 hrs to several sessions depending on your particular experience.
 
-<img src="https://mrobotics.io/wp-content/uploads/2023/02/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png" width="300"/>
-
 ## What's Included
+
+<img src="https://mrobotics.io/wp-content/uploads/2022/05/DRON15-2048x1365.jpg" width="600"/>
 
 Make sure you have all the parts listed below, if something is missing or you have any questions please do not hesitate to [contact us](mailto:help@mrobotics.io).
 
-- [ ] Quad Zero Frame (3D printed part)
+- [ ] Quad Zero Frame
 
-- [ ] GPS Riser (3D printed part, check aluminum inserts) 
+- [ ] GPS Riser 
   
   - [ ] 4x 2-56x 3/16  Nylon socket head screws
   
   - [ ] 2x 2-56x 1/8  Nylon socket head screws
 
-- [ ] 4x MI-2202 (old ones, thick cable and screws inside)
+- [ ] 4x MI-2202
   
-  - [ ] 8x M2x6mm Black oxide screws.
+  - [ ] 8x M2x6mm black oxide screws.
 
 - [ ] 2 Propeller set
 
-- [ ] QZ Carrier M10112E - check colored cable from ESC is installed
+- [ ] Quad Zero carrier board M10112E 
   
   - [ ] 3x MRC-0295 (MRC0243) JST-GH 6 to JST-SH 6 cables
   
   - [ ] BT2.0 pigtail
   
-  - [ ] 2x  ½”x½”x1/10” Sorbothane squares (gel stuff)
+  - [ ] 2x ½”x½”x1/10” vibration dampers
 
-- [ ] Control Zero OEM H7 M10059D
+- [ ] Control Zero OEM H7 M10059D autopilot
   
   - [ ] SD Card
   
-  - [ ] Plastic tweezers (for OEM easy removal)
+  - [ ] Plastic tweezers
 
-- [ ] SAM-M8Q Med size M10038C 
+- [ ] SAM-M8Q Med size GPS M10038C 
 
 - [ ] FrSky R-XSR radio receiver
 
-- [ ] QZ Battery 
+- [ ] Quad Zero 2S 4200mAh battery 
   
   - [ ] XT60-BT2.0 adapter
   
@@ -109,9 +111,7 @@ Take one MI-2202 brushless motor from its box, make sure the rotor can spin free
 
 **NOTE**: Make sure the motor's wires point down the frame's arm. See figure below.
 
-![alt text](/_images/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png)
-
-
+<img src="https://mrobotics.io/wp-content/uploads/2023/02/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png" width="600"/>
 
 Please do not use Loctite or other similar fluids as these may damage the plastic integrity over time. Repeat the above steps for the remaining 3 arms. Due to the nature of the manufacturing process, your frame may or may not have 'elephant foot' artifacts; if this is the case please remove them using a hobby knife.
 
@@ -119,7 +119,7 @@ Please do not use Loctite or other similar fluids as these may damage the plasti
 
 Once you finish placing and screwing all the motors your frame should look something like the picture below.
 
-![alt text](/_images/d7621fcaefc7f8d87c3b3e2e9b59be02574f0552.JPEG)
+<img src="https://mrobotics.io/wp-content/uploads/2023/02/d7621fcaefc7f8d87c3b3e2e9b59be02574f0552.JPEG" width="600"/>
 
 # Step 2 - Carrier board subassembly
 
@@ -135,7 +135,8 @@ Locate the harness with pre-tinned pigtails and remove the white and yellow wire
 
 Make sure your connector assembly looks like the picture below. This shows a standard SBUS out connection to the FC, however if you are an advanced user and would like to use the S.Port for telemetry you may adapt these instructions as needed.
 
-![alt text](/_images/66a774f897079c0206ccc2d1a140aeb5079b548b.png =200x)
+<img src="https://mrobotics.io/wp-content/uploads/2023/02/66a774f897079c0206ccc2d1a140aeb5079b548b.png" width="600"/>
+
 
 Then, for an appropriate cable management cut the wire length to 26mm or about an inch from the connector housing. Again, if you require to place your radio elsewhere feel free to do so.
 Now, cut a piece of double sided tape and put in on the antenna connector side of the board, if the tape is too thin you may stack up 2 or more layers, as needed to get a good flat surface area so it sticks better to the frame. Do not place it yet.
@@ -148,7 +149,9 @@ Next, solder the pigtails to the carrier board as described below.
 | Red   | RC<sub>V_SEL</sub> |
 | Green | RC<sub>IN</sub>    |
 
-![loading-ag-1894](/_images/b32cf9603c746abc59d07c9a1af2a99b6ee4a2c3.png)
+
+<img src="https://mrobotics.io/wp-content/uploads/2023/02/b32cf9603c746abc59d07c9a1af2a99b6ee4a2c3.png" width="600"/>
+
 
 **NOTE:** If you are using a Spektrum satellite receiver please visit the M10112 carrier board wiki for directions on how to change the voltage and pairing logic.
 
@@ -223,11 +226,12 @@ We will start this section by opening the bag that contains the Dual Band teleme
 
 Allocate the GPS Riser and grab the two 2-56x1/8" nylon hex screws to attach the M10114 Dual Band telemetry radio board to the plastic riser as pictured below.
 
-![loading-ag-1896](/_images/d00dc94d4ea9c7543519dcb5ab3f6e531543bb8d.JPEG =400x)
+<img src="https://mrobotics.io/wp-content/uploads/2023/02/d00dc94d4ea9c7543519dcb5ab3f6e531543bb8d.JPEG" width="600"/>
 
 Place a small 9x9mm double sided tape square and place the GPS on top.
 
-![loading-ag-1898](/_images/9748fedbc4f838fa97db7f2f379fbe43c1157c43.JPEG)
+<img src="https://mrobotics.io/wp-content/uploads/2023/02/9748fedbc4f838fa97db7f2f379fbe43c1157c43.JPEG" width="600"/>
+
 
 ## Put flight controller in place
 
