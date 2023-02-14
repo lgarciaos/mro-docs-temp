@@ -15,7 +15,7 @@ The Quad Zero Kit platform was developed with several goals in mind: lightweight
 
 We put together this guide to help you get up and running with your QZKit platform as fast as possible. Please note that this build may take anywhere from 3 hrs to several sessions depending on your particular experience.
 
-[<img src="/_images/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png" width="300"/>](/_images/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png)
+<img src="https://mrobotics.io/wp-content/uploads/2023/02/3617b2eca3c3471905ec8fa5bde2ca8da25a0901.png" width="300"/>
 
 ## What's Included
 
