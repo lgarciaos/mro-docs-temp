@@ -120,6 +120,7 @@ Please do not use Loctite or other similar fluids as these may damage the plasti
 Once you finish placing and screwing all the motors your frame should look something like the picture below.
 
 <img src="https://mrobotics.io/wp-content/uploads/2023/02/d7621fcaefc7f8d87c3b3e2e9b59be02574f0552.JPEG" width="600"/>
+![Alt text](/_images/d7621fcaefc7f8d87c3b3e2e9b59be02574f0552.JPEG)
 
 # Step 2 - Carrier board subassembly
 
