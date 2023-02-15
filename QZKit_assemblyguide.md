@@ -159,6 +159,12 @@ Grab the colorful JST-SH 6 to JST-SH 6 cableA]
 
 [INSERT IMAGE HERE]
 
+### Remove ToF sensor protective cover
+
+
+
+![IMG_3132.JPEG](_images/69a493269dd017e915f3ae36784373727f7537df.JPEG)
+
 ### Vibration dampers
 
 Cut the provided vibration dampening material by half so you end up with 4 small pieces, to do so you may use a hobby knife or scissors.
