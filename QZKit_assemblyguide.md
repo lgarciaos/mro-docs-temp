@@ -161,8 +161,6 @@ Grab the colorful JST-SH 6 to JST-SH 6 cableA]
 
 ### Remove ToF sensor protective cover
 
-
-
 ![IMG_3132.JPEG](_images/69a493269dd017e915f3ae36784373727f7537df.JPEG)
 
 ### Vibration dampers
@@ -256,8 +254,6 @@ Place a small 9x9mm double sided tape square and place the GPS on top. We recomm
 
 ![IMG_3186.JPEG](_images/167dc5ea8a8f30a705e132e09465230533f24a6d.JPEG)
 
-
-
 ## Install autopilot board in place
 
 ![Alt text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjRkZTE4ZjMxMTFlOTQwMjQ5OTRhODU1YzU5ZDBhNjljZjQwYjAyYyZjdD1n/OAb6RHYp1G1M7G90WI/giphy.gif)
@@ -270,14 +266,11 @@ Place it with the arrow pointing to the left  side of the carrier board, the ToF
 
 If for any reason you need to remove the Control Zero board, you may do so with the included plastic tweezers, using them as a lever to gently separate each connector 1-2mm at a time.
 
-
-
 ![IMG_3176.JPEG](_images/ca634b531058ecf813e8cb2cd05d55aecd2a4491.JPEG)
 
 ### Secure RF subassembly to frame
 
 Gently bend the antenna cables 180 degrees so you are able to place it on the right side of the frame. We suggest securing the GPS riser in place before glueing the antenna. To do so, use 4x 2-56x3/16" nylon hex screws.
-
 
 See picture below for reference. Use CA glue to strengthen the bond as needed.
 
@@ -299,8 +292,6 @@ Then take one MRC-0243 JST-SH 6-pin to JST-GH 6-pin cable, connect the GH end to
 
 ![IMG_3203.JPEG](_images/2aaf2080b77e554dec0f43cf64ccc8de14229e99.JPEG)
 
-
-
 ### Radio RX placement and antenna routing
 
 ![IMG_3206.JPEG](_images/7d89a192d583301586e1568b11f1f41372f71aaf.JPEG)
@@ -310,8 +301,6 @@ If you haven't already, place a small double sided tape square on the antenna si
 ![IMG_3207.JPEG](_images/a765d5a8249e9c09b46eb230f44c69cc6c613e1b.JPEG)
 
 Note the suggested antenna placement. Feel free to change the routing according to your payload. We used the CA glue blob method to fix the antennas to the frame. 
-
-
 
 # Step 5 - FC Configuration
 
@@ -330,8 +319,6 @@ Click the *Load Parameters* button and select [this]() parameter file which shou
 Allow once you press OK button (reboot prompt) wait until the beep
 Parameters succesfully saved
 Should reconnect auto, if not just press disconnect and Connect .
-
-
 
 ## PX4
 
@@ -400,8 +387,6 @@ Use 2 included M2x5mm screws per motor to secure the propeller in place. Loctite
 **NOTE:** *This step involves running the motors with the propellers on the bench, if you do not feel comfortable doing so there are alternative ways of achieveing the same results. We highly recommend doing this step if you want the best performance from your Quad Zero Kit, motors will run quieter and cooler and the estimators will be much happier when the autopilot is not vibrating violently from a poorly balanced motor-prop assembly. We would like to do this step for you to guarantee the best experience out of the box, however it is time-consuming and it would require a strict labeling for positioning the propellers on the motors thus bringing an increase in lead times and price.*
 
 If using Ardupilot ...
-
-
 
 # Fly responsibly, safely and securly.
 
